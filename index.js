@@ -114,6 +114,7 @@ module.exports = function getMiddleware(options) {
      * Returns
      */
     if (this.method === 'OPTIONS') {
+      yield next;
       this.status = 204;
     } else {
       yield next;
