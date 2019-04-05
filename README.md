@@ -8,7 +8,7 @@ Inspired by the great [node-cors](https://github.com/troygoode/node-cors) module
 ## Installation (via [npm](https://npmjs.org/package/koa-cors))
 
 ```bash
-$ npm install koa-cors
+$ npm install @authing/koa-cors
 ```
 
 ## Usage
